@@ -1,61 +1,6 @@
-<script type="text/javascript">
-window.onLoad = function(){
-window.onkeyup = khandle
-window.onkeypress = khandle
-
-function khandle(e) {
-  var state = 1;
-
-  if(state == 1){
-    if(e.keyCode == 38) state = 2;
-    else state = 1;
-  }
-  else if(state == 2){
-    if(e.keyCode == 38) state = 3;
-    else state = 1;
-  }
-  else if(state == 3){
-    if(e.keyCode == 40) state = 4;
-    else state = 1;
-  }
-  else if(state == 4){
-    if(e.keyCode == 40) state = 5;
-    else state = 1;
-  }
-  else if(state == 5){
-    if(e.keyCode == 37) state = 6;
-    else state = 1;
-  }
-  else if(state == 6){
-    if(e.keyCode == 39) state = 7;
-    else state = 1;
-  }
-  else if(state == 7){
-    if(e.keyCode == 37) state = 8;
-    else state = 1;
-  }
-  else if(state == 8){
-    if(e.keyCode == 39) state = 9;
-    else state = 1;
-  }
-  else if(state == 9){
-    if(String.fromCharCode(e.keyCode || e.charCode)== "B") state = 10;
-    else state = 1;
-  }
-  else if(state == 10){
-    if(String.fromCharCode(e.keyCode || e.charCode) == "A") state = 11;
-    else state = 1;
-  }
-  else if(state == 11){
-    if(e.keyCode == 13) konamiCode();
-    else state = 1;
-  }
-
-}
-function konamiCode(){
-  alert("I am an alert box!");
-}
-}
+<script src="konami.js">
+var egg = new Konami();
+egg.load("http://google.com")
 </script>
 <html>
 <body id="body">
