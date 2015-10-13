@@ -1,12 +1,25 @@
 <script type="text/javascript" src="konami.js">
 </script>
 <script>
+window.onload = function(){
+  document.getElementById('video').style.display = 'none';
+}
 var easter_egg = new Konami();
-easter_egg.code = function() { alert('Konami code!'); }
+easter_egg.code = function() {
+
+  document.getElementById('title').style.display = 'none';
+  document.getElementById('video').style.display = 'block';
+
+  }
 easter_egg.load();
 </script>
 <html>
 <body id="body">
-  Hint: Konami Code.
+  <div id="title">
+    Hint: Konami Code.
+  </div>
+  <div id="video">
+    <p><iframe src="https://vine.co/v/epYxTHBd3Ez/card" width="380" height="380" frameborder="0"></iframe></p>
+  </div>
 </body>
 </html>
