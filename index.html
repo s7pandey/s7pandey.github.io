@@ -1,6 +1,7 @@
-<script src="konami.js">
-var egg = new Konami();
-egg.load("http://google.com")
+<script type="text/javascript" src="konami.js">
+var easter_egg = new Konami();
+easter_egg.code = function() { alert('Konami code!'); }
+easter_egg.load();
 </script>
 <html>
 <body id="body">
