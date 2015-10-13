@@ -1,10 +1,9 @@
 <script type="text/javascript" src="konami.js">
 </script>
 <script src="https://platform.vine.co/static/scripts/embed.js"></script>
+<script src="//cdn.rawgit.com/namuol/cheet.js/master/cheet.min.js"
+        type="text/javascript"></script>
 <script>
-window.onload = function(){
-  document.getElementById('video').style.display = 'none';
-}
 var easter_egg = new Konami();
 easter_egg.code = function() {
 
@@ -18,9 +17,12 @@ easter_egg.code = function() {
   iframe.setAttribute("src", link);
   document.getElementById("video").appendChild(iframe);
   document.getElementById('video').style.display = 'block';
-  
+
 }
 easter_egg.load();
+cheet('s a r a h', function () {
+  alert("Hello Sarah.")
+});
 </script>
 <html>
 <body id="body">
