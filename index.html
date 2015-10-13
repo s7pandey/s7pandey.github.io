@@ -1,5 +1,6 @@
 <script type="text/javascript" src="konami.js">
 </script>
+<script src="https://platform.vine.co/static/scripts/embed.js"></script>
 <script>
 window.onload = function(){
   document.getElementById('video').style.display = 'none';
@@ -8,7 +9,7 @@ var easter_egg = new Konami();
 easter_egg.code = function() {
 
   document.getElementById('title').style.display = 'none';
-  var link = "http://vine.co/v/epYxTHBd3Ez/embed?autoplay=1&audio=1"
+  var link = "https://vine.co/v/epYxTHBd3Ez/embed/simple?audio=1"
   var iframe = document.createElement('iframe');
   iframe.frameBorder=0;
   iframe.width="380px";
@@ -17,7 +18,7 @@ easter_egg.code = function() {
   iframe.setAttribute("src", link);
   document.getElementById("video").appendChild(iframe);
   document.getElementById('video').style.display = 'block';
-
+  
 }
 easter_egg.load();
 </script>
