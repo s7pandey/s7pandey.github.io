@@ -2,11 +2,11 @@
 </script>
 <script>
 var easter_egg = new Konami();
-easter_egg.load('http://google.com');
+easter_egg.code = function() { alert('Konami code!'); }
+easter_egg.load();
 </script>
 <html>
 <body id="body">
-  Hello World.
-
+  Hint: Konami Code.
 </body>
 </html>
