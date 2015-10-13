@@ -8,9 +8,17 @@ var easter_egg = new Konami();
 easter_egg.code = function() {
 
   document.getElementById('title').style.display = 'none';
+  var link = "https://vine.co/v/epYxTHBd3Ez?autoplay=1&audio=1/card"
+  var iframe = document.createElement('iframe');
+  iframe.frameBorder=0;
+  iframe.width="380px";
+  iframe.height="380px";
+  iframe.id="randomid";
+  iframe.setAttribute("src", link);
+  document.getElementById("video").appendChild(iframe);
   document.getElementById('video').style.display = 'block';
 
-  }
+}
 easter_egg.load();
 </script>
 <html>
@@ -19,7 +27,6 @@ easter_egg.load();
     Hint: Konami Code.
   </div>
   <div id="video">
-    <p><iframe src="https://vine.co/v/epYxTHBd3Ez/card" width="380" height="380" frameborder="0"></iframe></p>
   </div>
 </body>
 </html>
