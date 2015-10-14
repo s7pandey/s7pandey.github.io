@@ -8,7 +8,7 @@ var easter_egg = new Konami();
 easter_egg.code = function() {
 
   document.getElementById('title').style.display = 'none';
-  document.getElementById('body').style.background = "";
+  document.getElementById('background').src = "";
   var link = "https://vine.co/v/epYxTHBd3Ez/embed/simple?audio=1"
   var iframe = document.createElement('iframe');
   iframe.frameBorder=0;
@@ -29,7 +29,8 @@ cheet('k a t', function(){
 })
 </script>
 <html>
-<body id="body" background="konmai.jpg">
+<body id="body">
+  <iframe src="konami.jpg" width="100%" height="100%" id="background"/>
   <div id="title">
     Hint: Konami Code.
   </div>
