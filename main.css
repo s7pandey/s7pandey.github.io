@@ -14,12 +14,31 @@ body {
     height: 100%;
 }
 
-.header {
+.header1 {
     width: 50%;
     height: 40%;
     display: inline-block;
     background-color: white;
     transform: translateY(50%);
+}
+@media only screen and (max-width: 768px) {
+    .header1 {
+        width: 80%;
+        height: 30%;
+    }
+    .main.title {
+        font-size: 32px !important;
+    }
+    .picture{
+        width: 50px !important;
+        height: 50px !important;
+    }
+    .ui.cards{
+        margin-left: 7% !important;
+    }
+    .background{
+        display: none;
+    }
 }
 
 .summary {
@@ -39,7 +58,7 @@ body {
     background-color: #fff;
 }
 
-.right {
+.right1 {
     width: 70%;
     height: 100%;
     float: left;
@@ -115,7 +134,7 @@ td {
 .info a {
     text-decoration: none;
     text-decoration-color: none;
-    color: #7f8c97;
+    color: #000;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -134,6 +153,21 @@ td {
     content: "\f103";
 }
 
+.background {
+    float: right;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+
+.ui.cards{
+    margin-left: 3%;
+}
+.contact{
+    margin-top: 2%;
+    width: 70%;
+    height: 100%;
+    display: inline-block;
+}
 .bounce {
     position: absolute;
     bottom: 30px;
