@@ -78,7 +78,7 @@ body {
     -ms-transform: rotate(270deg);
     -o-transform: rotate(270deg);
     transform: translateX(-50%) translateY(-32%) rotate(270deg);
-    color: #fff;
+    color: #000;
 }
 
 .title {
@@ -95,7 +95,7 @@ body {
     height: 100px;
     float: left;
     border-radius: 120px;
-    border: 1px solid #7bccc4;
+    border: 1px solid #fff;
     margin-top: 2px;
     display: block;
     margin: 0 auto;
