@@ -14,7 +14,7 @@ body {
     height: 100%;
 }
 
-.header1 {
+.header{
     width: 50%;
     height: 40%;
     display: inline-block;
@@ -22,7 +22,7 @@ body {
     transform: translateY(50%);
 }
 @media only screen and (max-width: 768px) {
-    .header1 {
+    .header {
         width: 80%;
         height: 30%;
     }
@@ -55,10 +55,10 @@ body {
     overflow: hidden;
     float: left;
     text-align: left;
-    background-color: #e1e1e1;
+    background-color: #D4AF37;
 }
 
-.right1 {
+.right {
     width: 70%;
     height: 100%;
     float: left;
