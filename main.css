@@ -1,5 +1,5 @@
 body {
-    background-color: #7bccc4;
+    background-color: #fff;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -55,18 +55,18 @@ body {
     overflow: hidden;
     float: left;
     text-align: left;
-    background-color: #fff;
+    background-color: #e1e1e1;
 }
 
 .right1 {
     width: 70%;
     height: 100%;
     float: left;
-    background-color: #e3e3e3;
+    background-color: #e5e5e5;
 }
 
 .main.title {
-    font-size: 56px;
+    font-size: 46px;
     position: relative;
     writing-mode: rl-tb;
     left: 50%;
@@ -78,11 +78,11 @@ body {
     -ms-transform: rotate(270deg);
     -o-transform: rotate(270deg);
     transform: translateX(-50%) translateY(-32%) rotate(270deg);
-    color: #7bccc4;
+    color: #fff;
 }
 
 .title {
-    color: #fff;
+    color: #000;
     font-family: 'Righteous', cursive;
     font-size: 50px;
 }
