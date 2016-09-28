@@ -23,8 +23,8 @@ body {
 }
 @media only screen and (max-width: 768px) {
     .header {
-        width: 80%;
-        height: 30%;
+        width: 50%;
+        height: 18%;
     }
     .main.title {
         font-size: 32px !important;
@@ -38,6 +38,41 @@ body {
     }
     .background{
         display: none;
+    }
+    .main.title.first{
+        left: 130%;
+        top: 30%;
+    }
+    .main.title.last{
+        top: -58%;
+        left: 165%;
+    }
+}
+@media only screen and (max-width: 1500px) {
+    .header {
+        width: 50%;
+        height: 35%;
+    }
+    .main.title {
+        font-size: 32px !important;
+    }
+    .picture{
+        width: 50px !important;
+        height: 50px !important;
+    }
+    .ui.cards{
+        margin-left: 7% !important;
+    }
+    .background{
+        display: none;
+    }
+    .main.title.first{
+        left: 120%;
+        top: 52%;
+    }
+    .main.title.last{
+        top: -58%;
+        left: 155%;
     }
 }
 
