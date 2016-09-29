@@ -14,13 +14,14 @@ body {
     height: 100%;
 }
 
-.header{
-    width: 50%;
-    height: 40%;
+.header {
+    width: 600px;
+    height: 300px;
     display: inline-block;
     background-color: white;
     transform: translateY(50%);
 }
+
 @media only screen and (max-width: 768px) {
     .header {
         width: 50%;
@@ -29,37 +30,38 @@ body {
     .main.title {
         font-size: 32px !important;
     }
-    .picture{
+    .picture {
         width: 50px !important;
         height: 50px !important;
     }
-    .ui.cards{
+    .ui.cards {
         margin-left: 7% !important;
     }
-    .background{
+    .background {
         display: none;
     }
-    .main.title.first{
+    .main.title.first {
         left: 130% !important;
         top: 30% !important;
     }
-    .main.title.last{
+    .main.title.last {
         top: -58% !important;
         left: 165% !important;
     }
 }
+
 @media only screen and (max-width: 1500px) {
     .header {
-        width: 50% !important;
-        height: 35% !important;
+        width: 600px;
+        height: 300px;
     }
-    .main.title.first{
-        left: 120% !important;
-        top: 52% !important;
+    .main.title.first {
+        left: 210px!important;
+        top: 140px !important;
     }
-    .main.title.last{
-        top: -58% !important;
-        left: 155% !important;
+    .main.title.last {
+        top: -190px !important;
+        left: 260px !important;
     }
 }
 
@@ -102,13 +104,15 @@ body {
     width: 100%;
     height: 100%;
 }
-.main.title.first{
-    left: 100%;
-    top: 45%;
+
+.main.title.first {
+    left: 210px!important;
+    top: 140px !important;
 }
-.main.title.last{
-    top: -65%;
-    left: 130%;
+
+.main.title.last {
+    top: -190px !important;
+    left: 260px !important;
 }
 
 .title {
@@ -174,10 +178,11 @@ td {
     filter: alpha(opacity=70);
 }
 
-.ui.cards{
+.ui.cards {
     margin-left: 3%;
 }
-.contact{
+
+.contact {
     margin-top: 2%;
     width: 70%;
     height: 100%;
