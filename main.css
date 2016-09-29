@@ -40,26 +40,26 @@ body {
         display: none;
     }
     .main.title.first{
-        left: 130%;
-        top: 30%;
+        left: 130% !important;
+        top: 30% !important;
     }
     .main.title.last{
-        top: -58%;
-        left: 165%;
+        top: -58% !important;
+        left: 165% !important;
     }
 }
 @media only screen and (max-width: 1500px) {
     .header {
-        width: 50%;
-        height: 35%;
+        width: 50% !important;
+        height: 35% !important;
     }
     .main.title.first{
-        left: 120%;
-        top: 52%;
+        left: 120% !important;
+        top: 52% !important;
     }
     .main.title.last{
-        top: -58%;
-        left: 155%;
+        top: -58% !important;
+        left: 155% !important;
     }
 }
 
