@@ -1,6 +1,5 @@
-{
-    "nodes": [
-        {
+data = {
+    "nodes": [{
             "id": "Myriel",
             "group": 1
         },
@@ -309,8 +308,7 @@
             "group": 8
         }
     ],
-    "links": [
-        {
+    "links": [{
             "source": "Napoleon",
             "target": "Myriel",
             "value": 1
@@ -1581,4 +1579,4 @@
             "value": 1
         }
     ]
-}
+};
