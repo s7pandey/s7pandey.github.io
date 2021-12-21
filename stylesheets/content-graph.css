@@ -1,5 +1,5 @@
 .links line {
-    stroke: #fff;
+    stroke: #aaa;
 }
 
 .nodes circle {
@@ -24,4 +24,8 @@
     transform: translateY(-50%);
     left: 2%;
     width: 20%;
+    background-color: white;
+}
+#container{
+    background-color: #eee;
 }
