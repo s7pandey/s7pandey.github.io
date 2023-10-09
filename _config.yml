@@ -1,8 +1,10 @@
-title: shashwatpandey.ca
+title: Shash Pandey
 description: Website
 google_analytics: 
 show_downloads: true
-theme: jekyll-theme-minimal
+theme: minimal-mistakes-jekyll
+
+minimal_mistakes_skin: "dark"
 
 gems:
   - jekyll-mentions

@@ -1,10 +1,8 @@
 ---
-layout: page
+layout: single
 title: "Blog"
 permalink: /blog
 ---
-
-# Blog
 
 ## Introduction
 
