@@ -1,0 +1,190 @@
+body {
+    background-color: #fff;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.intro {
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    width: 600px;
+    height: 300px;
+    display: inline-block;
+    background-color: white;
+    transform: translateY(50%);
+}
+
+@media only screen and (max-width: 768px) {
+    .header {
+        width: 50%;
+        height: 18%;
+    }
+    .main.title {
+        font-size: 32px !important;
+    }
+    .picture {
+        width: 50px !important;
+        height: 50px !important;
+    }
+    .ui.cards {
+        margin-left: 7% !important;
+    }
+    .background {
+        display: none;
+    }
+    .main.title.first {
+        left: 130% !important;
+        top: 30% !important;
+    }
+    .main.title.last {
+        top: -58% !important;
+        left: 165% !important;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .header {
+        width: 600px;
+        height: 300px;
+    }
+    .main.title.first {
+        left: 210px!important;
+        top: 140px !important;
+    }
+    .main.title.last {
+        top: -190px !important;
+        left: 260px !important;
+    }
+}
+
+.summary {
+    width: 70%;
+    text-align: left;
+    float: left;
+    padding-left: 6px;
+}
+
+.left {
+    width: 30%;
+    /*box-shadow: 1px 1px 1px #888888;*/
+    height: 100%;
+    overflow: hidden;
+    float: left;
+    text-align: left;
+    background-color: #D4AF37;
+}
+
+.right {
+    width: 70%;
+    height: 100%;
+    float: left;
+    background-color: #e5e5e5;
+}
+
+.main.title {
+    font-size: 400%;
+    position: relative;
+    writing-mode: rl-tb;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-transform: translateX(-20%) translateY(50%) rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: translateX(-50%) translateY(-32%) rotate(270deg);
+    color: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+.main.title.first {
+    left: 210px!important;
+    top: 140px !important;
+}
+
+.main.title.last {
+    top: -190px !important;
+    left: 260px !important;
+}
+
+.title {
+    color: #000;
+    font-family: 'Righteous', cursive;
+    font-size: 50px;
+}
+
+.picture {
+    background-image: url('shashwat_profileLinkedIn.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    float: left;
+    border-radius: 120px;
+    border: 1px solid #D4AF37;
+    margin-top: 2px;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.profile {
+    width: 100%;
+    height: 50%;
+    margin-top: 7%;
+    position: relative;
+}
+
+.info {
+    width: 100%;
+    position: relative;
+    color: #000 !important;
+}
+
+.info i {
+    color: #D4AF37;
+}
+
+.info table {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+td {
+    padding: 2px;
+}
+
+.info a {
+    text-decoration: none;
+    text-decoration-color: none;
+    color: #000;
+    font-family: 'Oswald', sans-serif;
+}
+
+.background {
+    float: right;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+
+.ui.cards {
+    margin-left: 3%;
+}
+
+.contact {
+    margin-top: 2%;
+    width: 70%;
+    height: 100%;
+    display: inline-block;
+}

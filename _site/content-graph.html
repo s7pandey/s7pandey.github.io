@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<link rel="stylesheet" href="stylesheets/content-graph.css">
+<link rel="stylesheet" href="semantic/semantic.min.css">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="semantic/semantic.min.js"></script>
+
+<div id="container" class="svg-container">
+</div>
+
+<div id="node-detail" class="ui cards" style="display: none; background-color: #eee;">
+    <div id="node-detail-card" class="ui raised card">
+        <div class="content">
+            <div class="header">Title</div>
+            <div class="meta">Labels</div>
+            <div class="description">
+                Some description here
+            </div>
+        </div>
+    </div>
+    <div id="node-detail-links" class="ui card" style="display: none;">
+        <div class="content">
+            <div class="header">Project Timeline</div>
+            <div class="meta">Activity</div>
+            <div class="description">
+                Some description here
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script type="text/javascript" src="data/miserables.js"></script>
+<script type="text/javascript" src="js/content-graph.js"></script>
