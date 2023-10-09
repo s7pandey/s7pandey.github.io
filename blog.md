@@ -16,8 +16,9 @@ Graduating from the University of Waterloo with a Computer Engineering degree, I
 
 My internships started off with Mobile programming with Android with the bulky Android Studio for Java. The only reason I was ever to get a start in programming right way was my great experience building my own company, the now defunct [Davai](/davai.md) - I truly wish I could buy back that domain but it's going for something like $300 / yr, truly not worth it.
 
-The only problem that I remember from my internships that I was even remotely proud of was when I was working for a company that was developing a Sports application for Android. At that moment in time Android was far inferior to iOS in terms of developer friendly UI configurability and animations (something to look into) [Android vs iOS](/android-vs-ios.md). The task was to create a parallax type of movement on a large picture (to move back and forth across a picture). While this was fairly simple to accomplish on iOS
+The only problem that I remember from my internships that I was even remotely proud of was when I was working for a company that was developing a Sports application for Android. At that moment in time Android was far inferior to iOS in terms of developer friendly UI configurability and animations (something to look into) [Android vs iOS](/android-vs-ios.md).
 
+The task was to create a parallax type of movement on a large picture (to move back and forth across a picture). While this was fairly simple to accomplish on iOS, Android did not have a built-in parallax feature. Thus, I was tasked with rendering a large image but having to move a Android view across the image. To me, this was a task that took me a couple of days, since it was the first time that actually required math to be done while programming. I don't fully remember the math I came up with, but it was something like over a configurable amount of seconds, I would move the image underneath the view making sure the frame of view was always showing the middle of the image.
 
 ## Professional Experience
 
