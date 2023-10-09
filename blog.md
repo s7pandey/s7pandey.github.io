@@ -1,0 +1,34 @@
+---
+layout: page
+title: "Blog"
+permalink: /blog
+---
+
+# Blog
+
+## Introduction
+
+My name is Shashwat Pandey, I've been a software engineer since 2019 and this page exists mainly to organize my thoughts and occasionally be used to describe what I've learned and how to grow from those situations.
+
+## Education & Internships
+
+Graduating from the University of Waterloo with a Computer Engineering degree, I've never really had much professional experience within the lower levels of programming. My classes in those subjects were immensely interesting but I could never really visualize what I was building, thus over time, I moved to higher order (only in terms of abstraction not complexity) programming.
+
+My internships started off with Mobile programming with Android with the bulky Android Studio for Java. The only reason I was ever to get a start in programming right way was my great experience building my own company, the now defunct [Davai](/davai.md) - I truly wish I could buy back that domain but it's going for something like $300 / yr, truly not worth it.
+
+The only problem that I remember from my internships that I was even remotely proud of was when I was working for a company that was developing a Sports application for Android. At that moment in time Android was far inferior to iOS in terms of developer friendly UI configurability and animations (something to look into) [Android vs iOS](/android-vs-ios.md). The task was to create a parallax type of movement on a large picture (to move back and forth across a picture). While this was fairly simple to accomplish on iOS
+
+
+## Professional Experience
+
+Kafka
+Kafka Streams
+PaaS
+Leadership
+
+## Problems
+
+Kafka Streams Join misses
+Metrics Gathering/Tuning
+Data Visibility
+Data Integrity
